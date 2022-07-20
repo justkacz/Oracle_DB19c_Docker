@@ -39,7 +39,7 @@ then process might be ended by pressing: ctrl + c
 sudo docker start oracle19c
 <br>
 ## 10) set up your own password:
-sudo docker exec oracle19c ./setPassword.sh <password>
+sudo docker exec oracle19c ./setPassword.sh \<new_password\>
 <br>
 ## 11) Oracle Enterprise Manager Database Express is available under (proxy server might block an access -> webbrowser settings should be adjusted):
 https://localhost:5500/em/shell
