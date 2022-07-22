@@ -34,6 +34,7 @@ the last line should be “XDB initialized”
 <br>
 then process might be ended by pressing: ctrl + c
 <br>
+ - v = VOLUME -> maps a volume to the container so that the data stored by the container is stored at /u01/oracle on the host (all data will be available when container is removed)
 
 ## 9) start the oracle database:
 sudo docker start oracle19c
