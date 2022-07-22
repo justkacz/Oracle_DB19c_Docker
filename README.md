@@ -13,7 +13,7 @@ git clone https://github.com/oracle/docker-images
 <br>
 ## 3) download Oracle zip file from Oracle website (https://www.oracle.com/pl/database/technologies/oracle-database-software-downloads.html#19c)
 ## 4) Copy downloaded Oracle zip file into 19.3.0 folder (created during cloning Oracle repo):
-cp <path-of-download-directory>/LINUX.X64_193000_db_home.zip /var/docker/docker-images/OracleDatabase/SingleInstance/dockerfiles/19.3.0/
+cp \<path-of-download-directory\>\/LINUX.X64_193000_db_home.zip /var/docker/docker-images/OracleDatabase/SingleInstance/dockerfiles/19.3.0/
 <br>
 ## 5) Run docker -> go to dockerfiles folder and run buildContainerImage.sh file:
 cd /var/docker/docker-images/OracleDatabase/SingleInstance/dockerfiles
