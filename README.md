@@ -53,3 +53,6 @@ Container: orclpdb1
 <br>
 ## 12) connect database from docker terminal -> sqlplus:
 sudo docker exec -ti oracle19c sqlplus <username\>\/\<password\>\@\<container\>
+<br>
+-t = terminal
+-i = interactive
